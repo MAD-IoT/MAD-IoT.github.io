@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="test.css">
+
+</head>
+<body>
+
+
+<div id="container">
+  <div id="content">
+    <div id="about">
+      <h1>
+        <div style='float:left; margin-bottom:20px;'>
+          M.A.D.
+        </div>
+        <div class="stage">
+          <div class="container">
+            <div class="hexagone animate">
+              
+              <div class="top">
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+              </div>
+              
+              <div class="bottom">
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+              </div>
+          
+              <div class="side-faces">
+                <div class="side"></div>
+                <div class="side"></div>
+                <div class="side"></div>
+                <div class="side"></div>
+                <div class="side"></div>
+                <div class="side"></div>
+              </div>
+          
+            </div>
+          </div>
+        </div> 
+      </h1>
+
+      <h3 style='clear:both' class="subhead">
+        Modeling Amplifying Device
+      </h3>
+
+      <p>
+        Vítáme Vás na webstránce, na které jsme zdokumentovali náš projekt. Jsme studenti maturitního ročníku 2020/2021
+        na <a href="https://cirkevni-gymnazium.cz/">Církevním gymnáziu v Plzni</a> a v rámci školního semináře <b>Internet of Things</b> 
+        jsme dostali možnost vybrat si vlastní cíl projektu, který v průběhu tohoto roku realizujeme.
+      </p>
+
+      <p>Za možnost uskutečnění tohoto projektu a příležitost naučit se spoustu nového bychom chtěli poděkovat zejména panu <a href="https://cz.linkedin.com/in/jborik">ing. Jiřímu 
+        Boříkovi</a> za cenné rady při vedení projektu a <a href="https://www.zcu.cz/cs/index.html">Západočeské univerzitě</a> za poskytnutí zázemí a materiální podporu.</p>
+
+      
+
+      </br>
+
+      <h2>Složení týmu:</h2>
+      <ul>
+        <li><p><b>Filip Kresl</b> - Software</p></li>
+        <li><p><b>Marek Beneš</b> - Hardware</p></li>
+        <li><p><b>Adam Cerha</b> - Design</p></li>
+      </ul>
+
+      </br>
+      </br>
+
+      <h3>Představení projektu</h3>
+      <p>Jelikož jsme muzikanti nebo milovníci hudby, věděli jsme, že náš výtvor bude mít cosi do činění s hudbou.
+        První nápad, který byl ovlivněn YouTube kanálem <a href="https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw">LOOK MUM NO COMPUTER</a>, 
+        byla tvorba syntezátoru, avšak po dalších úvahách jsme se rozhodli pro tvorbu komba. Prvotní nápady byly
+        dost odvážné, dalo by se říci až megalomanské. Myšlenka spočívala v tvorbě modelingového aparátu, 
+        který by zkresloval a emuloval zvuk známých zesilovačů.Tyto funkce měly být zároveň přepínány zabudovanými čidly. 
+        Postupem času jsme si však začali uvědomovat, jak je jednak tvorba softwaru, který by se o emulace
+        a zkreslení postaral, náročná, a na kolik hardwarových překážek narazíme. Proto jsme se rozhodli pro skromnější variantu komba.</p>
+
+
+
+
+      <p>
+        <audio controls>
+          <source src="./audio/Django.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+        <b>Django Reinhard</b> - Minor Swing</p>
+
+      <p>
+      <audio controls>
+        <source src="./audio/7nation.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+      </audio>
+      <b>Seven Nation Army</b> - White Stripes
+      <p>
+      <audio controls>
+        <source src="./audio/homage.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+      <b>Homage</b> - Mild High Club</p>
+
+
+
+      </br>
+      </br>
+      </br>
+
+      <h2>Design</h2>
+      <p>Už od začátku jsme chtěli, aby se náš výtvor vyjímal po designové stránce. Proto jsme se rozhodli ho zhotovit ve tvaru šestiúhelníku. 
+        Zpočátku jsme udělali několik 3D modelů pro lepší vizualizaci našeho nápadu. Zhotovení však nebylo jednoduché, jelikož strany musely být 
+        seříznuty pod úhlem 60°, 
+        aby tvořily šestiúhelník. S tímto problémem nám nakonec pomohl Jaroslav Pinkas a Patrik Cerha, kteří pro nás díly nařezali a konstrukci slepili.  </p>
+
+
+      <p>Do přední stěny jsme vyřízli díru o průměru 18 cm. Dále jsme si zhotovili několik  120°-úhelníků. Ty jsme použili k sešroubování stran k sobě 
+        a později i jako úchyt přední stěny. 
+        Následovalo vyřiznutí díry pro displej na horní straně zesilovače, vyvrtání děr pro potenciometry a přepínače na ovládacím panelu, zásuvky 
+        a vypínače na spodní straně. Komponenty na ovládacím panelu byly schovány pod plechem, který krásně zakryl díry po vrtání. 
+        Po upevnění většiny součástek uvnitř zesilovače jsme vytvořili přepážku pro hardware a začali dovnitř lepit akustické ňopky. 
+        Celkem jsme spotřebovali kolem 0.4 m². 
+        Pro zakrytí reproduktoru jsme si zhotovili seštiúhelník z překližky o velikost přední strany. 
+        Dále jsme do něj vyřezali díru s o trochu větším průměrem, než jsem použili u reproduktoru, a nakonec jsme překližku potáhli černou textilií.</p>
+        
+      <p>Korpus jsme se rozhodli nechat v barvě dýhy a zbytek součástek jako madla, zadní stěnu nebo plech na ovládací panel jsme nastříkali načerno.
+        Do budoucna nemáme v rámci designu žádné velké plány. Jediné, co bychom rádi přidali, jsou nožičky ze spodní strany, 
+        oblepení přední hrany lemovací páskou a možná kování pro ochranu stran.</p>
+
+      <div class="gallery">
+        <img src="./img/img1.jpg" alt="ALA Terre" width="600" height="400">
+      <div class="desc">Zabudovaný displej</div>
+      </div>
+    
+      <div class="gallery">
+        <img src="./img/img2.jpg" alt="Forest" width="600" height="400">
+      <div class="desc">Pohled zepředu</div>
+      </div>
+
+      <div class="gallery">
+        <img src="./img/img4.jpg" alt="ALA Terre" width="600" height="400">
+      <div class="desc">Pohled z boku</div>
+      </div>
+  
+      <div class="gallery">
+        <img src="./img/img3.jpg" alt="Forest" width="600" height="400">
+      <div class="desc">Ovládací panel</div>
+      </div>
+
+      <div class="gallery">
+        <img src="./img/DES5.jpg" alt="ALA Terre" width="600" height="400">
+      <div class="desc">Akustické Nopky a upevnění součástek</div>
+      </div>
+  
+      <div class="gallery">
+        <img src="./img/DES3.jpg" alt="Forest" width="600" height="400">
+      <div class="desc">120°-úhelníky</div>
+      </div>
+
+
+  <h3>&nbsp;</h3>
+
+      <h2>Hardware</h2>
+      <p>Náš výtvor se skládá ze tří hlavních funkčních částí a napájení. Hlavní část a jádro celého projektu je Raspberry Pi4. 
+        To samo o sobě nedokáže se zvukem moc pracovat a proto jsem začali ihned shánět zvukovou kartu. Původní plán byl použít i I/O piny a tak jsme zvolili USB HQ zvukovou kartu (HW-0)</p>
+      <p>Na přenos signálu do Raspberka jsme potřebovali převést standardní nástrojový 6.3 mm JACK na klasický sluchátkový 3.5 mm. 
+        Jenomže jsme narazili na rušení a tak jsme vytvořili tento řetěz na testování vadného komponentu (OBR. HW-1). 
+        Vstup nástroje měl být zapojený přímo do USB karty, ale hlasitost vstupu bylo dostatečná pouze ve chvíli, kdy jsme měli zapojený nějaký aktivní nástroj. 
+        Pasivní nástroje a jejich snímače nedokázaly poskytnou dostatečně silný signál a tak jsme se rozhodli pro předzesilovač. Ten nám přišel jako stavebnice a součástky jsme si tedy museli osadit sami. (obr. HW-2 a 3). 
+        Součástí desky předzesilovače byl i konektor na 6,3 mm JACK. Proto jsme se rozhodli neosazovat jej a raději ho připevnit na uživatelský panel. Desku jsme proto zkrátili. (HW-4) </p>
+      <p>Dalším významným komponentem je koncový zesilovač. Při práci s ním a při jeho testování (HW-5) jsme narazili na problém přehřívání čipu, který jsme jednoduše vyřešili připevněním pasivního chladiče. (HW-6)</p>
+
+      <p>Pro koncový zesilovač, který obsahuje usměrňovací můstek, jsme použili hnědé a žluté vinutí, na vstup zesilovače jsme tedy dostali požadovaných ±30V AC. 
+        Napájení Raspberka jsme nechali původní, tedy samostatný adaptér. Pro předzesilovač, který vyžaduje stejnosměrné symetrické napájení jsme si ale nevystačili pouze se spojováním a museli jsme si tedy postavit vlastní „zdroj“. 
+        Na výstupu měl cca 14 V a proto jsme raději snížili napětí přidáním dvou 1kΩ rezistorů. Při standardním odběru pak bylo napájení na požadované hodnotě ±9V DC. (obr HW-7 8 9 10).</p>
+      <p>V signálové části obvodu jsme přidali možnost bypass, abychom vyřadili Raspberko a celá soustava fungoval pouze jako zesilovač. 
+        Nakonec starý přepínač řady T6 nahradil malý přepínač, na jehož montážní otvor jsme měli požadovaný vrták. 
+        Bohužel je nainstalován pouze jednopólový a při finálním testu jsme zjistili, že nefunguje přepínání vůbec. 
+        Zesilovač nereaguje na změnu. Pro finální představení jsme se rozhodli tedy alespoň propojit předzesilovač a koncový výstup. 
+        Máme z toho klasický zesilovač s tím, že Raspberry zaznamenává a vizualizuje signál.</p>  
+
+        <div class="gallery">
+          <img src="./img/HW-2.jpg" alt="ALA Terre" width="600" height="400">
+        <div class="desc">Předzesilovač</div>
+        </div>
+      
+        <div class="gallery">
+          <img src="./img/HW-9.jpg" alt="Forest" width="600" height="400">
+        <div class="desc">Předzesilovač</div>
+        </div>
+  
+        <!-- <div class="gallery">
+          <img src="./img/HW-3.jpg" alt="ALA Terre" width="600" height="400">
+        <div class="desc">Pohled z boku</div>
+        </div>
+    
+        <div class="gallery">
+          <img src="./img/HW-.jpg" alt="Forest" width="600" height="400">
+        <div class="desc">Ovládací panel</div>
+        </div> -->
+
+  <h2>&nbsp;</h2>
+
+      <h2>Software</h2>
+      <p>Úkolem softwaru bylo vytvořit funkční ekvalizér spolu s interfacem. Do tvorby jsme se pustili bez nějakých hlubších informací o programování a drtivou většinu času strávili právě učením se. 
+        V první řadě jsme si vybrali programovací jazyk Python a editor Pycharm, protože jsme s ním měli největší zkušenosti, ale nikterak dostačující. 
+        Z důvodu lockdownu a vládních restrikcí jsme byli limitováni pracovat odděleně a možností, jak si předávat Raspberry Pi s komponenty, nebylo mnoho, 
+        proto jsme se rozhodli, že software budeme dělat na dálku přes virtuální počítač.</p>
+
+      <p>Výzev (mnohdy ale zároveň slepých uliček) nás potkala celá řada, ať už se bavíme o náročnosti Pycharmu, který, jak jsme později zjistili, 
+        RP prostě neutáhne, o konfliktních verzích Pythonu s různými knihovnami nebo i o samotné komplexitě programování, nezastavily nás a i přes tyto komplikace jsme se pokoušeli projekt dotáhnout do konce.</p>
+
+      <p>Ve výsledku se nám podařilo napsat přívětivé UI spolu s funkcemi jako je nahrávání inputu, přehrávání audio souborů a připravili jsme možnost pomocí jezdců upravit výsledný signál. 
+        Finálnímu ekvalizéru ale bohužel ještě trocha péče chybí, komplikovaná matematika spojená s pokročilým programováním na nás byla v tomto případě zkrátka příliš složitá.</p>
+
+<div class="w3-row-padding" id="myGrid" style="margin-bottom:64px; margin-top:16px"> 
+  <div class="w3-half">
+    <img src="./img/img12.jpg" style="width:100%;">
+  </div>
+</div>      
+
+<div class="w3-row-padding" id="myGrid" style="margin-bottom:64px; margin-top:16px"> 
+  <div class="w3-half">
+    <img src="./img/img11.jpg" style="width:100%;">
+  </div>
+</div>   
+
+    </br>
+    </br>
+
+      <h2>Na závěr bychom chtěli poděkovat těmto lidem:</h2>
+      <p>Ing. Jiřímu Boříkovi za vedení projektu</p>
+      <p>Davidu Žahourovi za cenné rady ohledně softwarové části</p>
+      <p>Jaroslavu Pinkasovi a Patriku Cerhovi za pomoc s konstrukcí bedny</p>
+      <p>Ing. Františku Šlaufovi za poskytnutí nástrojů a materiálu</p>
+        
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html> 
